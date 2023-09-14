@@ -1,0 +1,48 @@
+.todo__list {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  padding: 1em 2em;
+  margin-bottom: 1em;
+}
+
+.todo__list:hover {
+  scale: 101%;
+  transition: 300ms;
+}
+
+.todo__data {
+  flex-grow: 1;
+  display: flex;
+}
+
+.todo__data > * {
+  flex: 1;
+}
+
+.todo__cost {
+  color: darkgray;
+}
+
+.todo__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-edit {
+  font-size: 1.2em;
+  color: green;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
+.button-delete {
+  font-size: 1.2em;
+  color: brown;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
