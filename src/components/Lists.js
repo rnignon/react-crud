@@ -1,6 +1,6 @@
 import React from 'react'
 import './Lists.css';
-import List from './List'
+import List from './List.js'
 import { AiFillDelete } from "react-icons/ai"
 
 export default function Lists({ todoList, setTodoList, handleAlert, handleRemoveClick, handleEdit}) {

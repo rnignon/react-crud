@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Form from "./components/Form"
-import Lists from "./components/Lists"
-import Alert from "./components/Alert"
+import Form from "./components/Form.js"
+import Lists from "./components/Lists.js"
+import Alert from "./components/Alert.js"
 
 export default function App() {
   const [todoValue, setTodoValue] = useState({title: "", cost: 0});
